@@ -4,7 +4,7 @@
 
 An automation pack for [StackStorm](https://github.com/StackStorm): various actions and ChatOps aliases for file/stream forensics and CTFs challenges.
 
-Although this pack was meant to power Randoms' own CTF helper, Marceline, it can also be reused as a set of independent StackStorm actions or as code somewhere else. Whatever you want, really.
+Although this pack is meant to power Randoms' own CTF helper, Marceline, it can also be reused as a set of independent StackStorm actions or as code somewhere else. Whatever you want, really.
 
 ## Commands
 

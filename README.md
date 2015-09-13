@@ -2,7 +2,7 @@
 
 ## Marceline
 
-An automation pack for [https://github.com/StackStorm|StackStorm]: various actions and ChatOps aliases for file/stream forensics and CTFs challenges.
+An automation pack for [StackStorm](https://github.com/StackStorm): various actions and ChatOps aliases for file/stream forensics and CTFs challenges.
 
 Although this pack was meant to power Randoms' own CTF helper, Marceline, it can also be reused as a set of independent StackStorm actions or as code somewhere else. Whatever you want, really.
 
@@ -20,7 +20,7 @@ when is {{ query }}? - Look for upcoming CTFs.
 
 However, I'm planning to extend it in the nearest future, and you're more than welcome to contribute.
 
-![](http://i.imgur.com/xxnIghW.gifv)
+![](http://i.imgur.com/xxnIghW.gif)
 
 ## Todo
 

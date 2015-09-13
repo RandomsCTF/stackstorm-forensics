@@ -1,0 +1,10 @@
+---
+name: "forensics_rot13"
+action_ref: "forensics.rot13"
+description: "Apply rot13 to a string."
+formats:
+    - "rot13 {{ string }}"
+ack:
+    disabled: true
+execution:
+    output: "{{ result }}"

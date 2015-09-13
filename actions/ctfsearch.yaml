@@ -1,0 +1,11 @@
+---
+name: "ctfsearch"
+runner_type: "python-script"
+description: "Searches CTFTime.org calendar for events."
+enabled: true
+entry_point: "ctfsearch.py"
+parameters:
+  query:
+    type: "string"
+    description: "Query for CTF title."
+    required: false

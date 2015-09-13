@@ -1,0 +1,10 @@
+---
+name: "forensics_base64decode"
+action_ref: "forensics.base64decode"
+description: "Do a base64 decode of a string."
+formats:
+    - "base64 decode {{ string }}"
+ack:
+    disabled: true
+execution:
+    output: "{{ result }}"

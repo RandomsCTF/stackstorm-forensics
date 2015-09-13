@@ -1,0 +1,11 @@
+---
+name: "forensics_ctfsearch"
+action_ref: "forensics.ctfsearch"
+description: "Look for upcoming CTFs."
+formats:
+    - "what.s next\\?"
+    - "when is {{ query }}\\?"
+ack:
+    disabled: true
+execution:
+    output: "{{ result }}"

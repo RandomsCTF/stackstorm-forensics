@@ -1,0 +1,15 @@
+---
+name: "base64encode"
+runner_type: "local-shell-cmd"
+description: "Do a base64 encode of a string."
+enabled: true
+parameters:
+  string:
+    type: "string"
+    description: "String to encode."
+    required: true
+  cmd:
+    description: "Command to run"
+    type: "string"
+    immutable: true
+    default: "echo \"{{ string }}\" | base64"

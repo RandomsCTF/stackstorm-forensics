@@ -1,0 +1,11 @@
+---
+name: "rot13"
+runner_type: "python-script"
+description: "Shift a string 13 chars."
+enabled: true
+entry_point: "rot13.py"
+parameters:
+  string:
+    type: "string"
+    description: "String to rotate."
+    required: true

@@ -1,0 +1,10 @@
+---
+name: "forensics_substitution"
+action_ref: "forensics.substitution"
+description: "Try to crack a substitution cipher."
+formats:
+    - "crack substitution {{ ciphertext }}"
+ack:
+    disabled: true
+execution:
+    output: "here's the best I could come up with: ```{{ result }}``` I used http://quipqiup.com/ by Edwin Olson to crack the cipher, and you should consider buying him a beer or at least visiting the website. :)"

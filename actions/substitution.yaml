@@ -1,0 +1,11 @@
+---
+name: "substitution"
+runner_type: "python-script"
+description: "Crack a substitution cipher."
+enabled: true
+entry_point: "substitution.py"
+parameters:
+  ciphertext:
+    type: "string"
+    description: "Ciphertext to crack."
+    required: true

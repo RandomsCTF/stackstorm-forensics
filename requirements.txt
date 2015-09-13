@@ -1,0 +1,7 @@
+requests
+arrow
+ics
+binwalk
+hachoir-core
+hachoir-parser
+hachoir-metadata

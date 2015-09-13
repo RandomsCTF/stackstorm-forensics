@@ -1,0 +1,10 @@
+---
+name : forensics
+description : st2 action pack for basic forensics and file analysis
+keywords:
+  - cipher
+  - steganography
+  - forensics
+version : 0.1
+author : emedvedev
+email : edward.medvedev@gmail.com

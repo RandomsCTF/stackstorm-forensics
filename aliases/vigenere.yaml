@@ -1,0 +1,10 @@
+---
+name: "forensics_vigenere"
+action_ref: "forensics.vigenere"
+description: "Try to crack a Vigenère cipher."
+formats:
+    - "crack vigenere {{ ciphertext }}"
+ack:
+    disabled: true
+execution:
+    output: "{{ result }} I used http://www.guballa.de/substitution-solver to crack the cipher. You can fiddle with settings and key on the website if the result isn't good enough."

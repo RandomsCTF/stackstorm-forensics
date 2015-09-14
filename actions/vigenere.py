@@ -27,5 +27,5 @@ class VigenereAction(Action):
         decrypted_regex = 'name=\"clear_text\"\>(.*?)\<'
         key = re.search(key_regex, post.text).group(1)
         message = re.search(decrypted_regex, post.text, re.DOTALL).group(1)
-        return """my best guess for the key is \"%s\":
-                  ```%s```""" % (key, h.unescape(message))
+        message = h.unescape(message)
+        return "my best guess for the key is \"%s\": ```%s```" % (key, message)

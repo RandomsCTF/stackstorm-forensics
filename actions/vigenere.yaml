@@ -1,0 +1,11 @@
+---
+name: "vigenere"
+runner_type: "python-script"
+description: "Crack a Vigenère cipher."
+enabled: true
+entry_point: "vigenere.py"
+parameters:
+  ciphertext:
+    type: "string"
+    description: "Ciphertext to crack."
+    required: true

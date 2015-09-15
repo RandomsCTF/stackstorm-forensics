@@ -1,9 +1,9 @@
 ---
-name: "hash-identifier"
+name: "hash-identify"
 runner_type: "python-script"
 description: "Identifies a hash."
 enabled: true
-entry_point: "hash-identifier.py"
+entry_point: "hash-identify.py"
 parameters:
   hash:
     type: "string"

@@ -1,6 +1,6 @@
 ---
-name: "forensics_hash-identifier"
-action_ref: "forensics.hash-identifier"
+name: "forensics_hash-identify"
+action_ref: "forensics.hash-identify"
 description: "Identify a hash."
 formats:
     - "identify hash {{ hash }}"

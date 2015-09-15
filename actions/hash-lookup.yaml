@@ -1,0 +1,11 @@
+---
+name: "hash-lookup"
+runner_type: "python-script"
+description: "Reverse lookup of a hash."
+enabled: true
+entry_point: "hash-lookup.py"
+parameters:
+  hash:
+    type: "string"
+    description: "A hash to look up."
+    required: true

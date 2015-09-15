@@ -1,0 +1,11 @@
+---
+name: "hash-identifier"
+runner_type: "python-script"
+description: "Identifies a hash."
+enabled: true
+entry_point: "hash-identifier.py"
+parameters:
+  hash:
+    type: "string"
+    description: "A hash to identify."
+    required: true

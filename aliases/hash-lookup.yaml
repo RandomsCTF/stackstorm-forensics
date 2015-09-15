@@ -1,0 +1,10 @@
+---
+name: "forensics_hash-lookup"
+action_ref: "forensics.hash-lookup"
+description: "Do a reverse lookup of a hash."
+formats:
+    - "dehash {{ hash }}"
+ack:
+    disabled: true
+execution:
+    output: "{{ result }}"

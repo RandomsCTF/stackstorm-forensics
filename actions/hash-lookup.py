@@ -7,6 +7,9 @@ __all__ = [
     'HashLookupAction'
 ]
 
+reply = """decrypted your hash, dude! It's \"%s\".
+Found it on leakdb.net, just so you know."""
+
 
 class HashLookupAction(Action):
     def run(self, hash):
@@ -14,7 +17,6 @@ class HashLookupAction(Action):
         json = request.json()
         if json['found'] == 'true':
             value = json['hashes'][0]['plaintext']
-            return """decrypted your hash, dude! It's \"%s\".
-                      Found it on leakdb.net, just so you know.""" % (value)
+            return reply % (value)
         else:
             return "can't find anything on leakdb, sorry. :("

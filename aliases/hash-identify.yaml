@@ -1,10 +1,10 @@
 ---
-name: "forensics_hash-identify"
-action_ref: "forensics.hash-identify"
+name: "forensics_hash-identifier"
+action_ref: "forensics.hash-identifier"
 description: "Identify a hash."
 formats:
     - "identify hash {{ hash }}"
 ack:
     disabled: true
 execution:
-    output: "most likely types for that hash are {{ result }}."
+    output: "the most likely types for that hash are {{ result }}."

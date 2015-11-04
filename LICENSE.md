@@ -1,1 +1,1 @@
-ZFG license: just do whatever you want with this code.
+ZFG (Zero Fucks Given) license: just do whatever you want with this code.
